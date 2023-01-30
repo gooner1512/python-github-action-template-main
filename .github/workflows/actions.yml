@@ -1,9 +1,9 @@
 name: hello world
 on:
-  # push:
-  #   branches: [master]
-  schedule:
-    - cron: '55 */2 * * *' # At minute 45 past every 2nd hour.
+  push:
+    branches: [master]
+  # schedule:
+  #   - cron: '55 */2 * * *' # At minute 45 past every 2nd hour.
 jobs:
   say-hello:
     runs-on: ubuntu-latest
