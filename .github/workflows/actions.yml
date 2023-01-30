@@ -1,4 +1,4 @@
-name: hello world
+name: update logs
 on:
   push:
     branches: [master]
